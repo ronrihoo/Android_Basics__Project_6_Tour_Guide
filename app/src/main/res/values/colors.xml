@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="dallas_blue">#FF042246</color>
+    <color name="dallas_navy">#FF09273B</color>
+    <color name="dallas_navy_gray">#FF324A68</color>
+    <color name="dallas_gray">#FFE8ECEF</color>
+
+    <color name="scheme_white">#FFFFFFFF</color>
+    <color name="scheme_blue">#FF47A4D4</color>
+    <color name="scheme_orange">#FFFBAE3C</color>
+    <color name="scheme_green">#FF1F9C85</color>
+    <color name="scheme_red">#FFE22A4A</color>
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Dallas Tour Guide App</string>
+    <string name="restaurants_label">Restaurants</string>
+    <string name="shooting_ranges_label">Shooting Ranges</string>
+    <string name="bars_label">Bars</string>
+    <string name="hookah_lounges_label">Hookah Lounges</string>
+
+    <string name="button_hookah_lounges">Hookah Lounges</string>
+    <string name="button_shooting_ranges">Shooting Ranges</string>
+    <string name="button_bars">Bars</string>
+    <string name="Restuarants" />
+    <string name="button_restaurants">Restaurants</string>
+    <string name="back_button_text"><![CDATA[>]]></string>
+
+    <string name="restaurant_1_name">Alamo Drafthouse Cinemas</string>
+    <string name="restaurant_1_phone">(214) 914-4443</string>
+    <string name="restaurant_1_address">1005 Lamar St. 325</string>
+
+    <string name="restaurant_2_name">Kenny\'s Wood Fired Grill</string>
+    <string name="restaurant_2_phone">(972) 392-9663</string>
+    <string name="restaurant_2_address">5000 Belt Line Rd #775</string>
+
+    <string name="restaurant_3_name">Texas de Brazil</string>
+    <string name="restaurant_3_phone">(972) 385-1000</string>
+    <string name="restaurant_3_address">15101 Addison Rd</string>
+
+    <string name="restaurant_4_name">Whataburger</string>
+    <string name="restaurant_4_phone">(972) 664-9900</string>
+    <string name="restaurant_4_address">9394 Lyndon B Johnson Fwy</string>
+
+    <string name="shooting_range_1_name">DFW Gun Range and Training Center</string>
+    <string name="shooting_range_1_phone">(214) 630-4866</string>
+    <string name="shooting_range_1_address">1607 W Mockingbird Ln</string>
+
+    <string name="shooting_range_2_name">Elm Fork Shooting Sports</string>
+    <string name="shooting_range_2_phone">(972) 556-0164</string>
+    <string name="shooting_range_2_address">10751 Luna Rd</string>
+
+    <string name="shooting_range_3_name">Targetmaster Indoor Shooting Center</string>
+    <string name="shooting_range_3_phone">(214) 343-4545</string>
+    <string name="shooting_range_3_address">1717 S Jupiter Rd</string>
+
+    <string name="shooting_range_4_name">Garland Public Shooting Range</string>
+    <string name="shooting_range_4_phone">(972) 495-5330</string>
+    <string name="shooting_range_4_address">2606 Pleasant Valley Rd</string>
+
+    <string name="bar_1_name">Flying Saucer</string>
+    <string name="bar_1_phone">(972) 991-7093</string>
+    <string name="bar_1_address">14999 Montfort Dr</string>
+
+    <string name="bar_2_name">Sharky\'s Bar <![CDATA[&]]> Grill</string>
+    <string name="bar_2_phone">(972) 713-0201</string>
+    <string name="bar_2_address">17453 Preston Rd</string>
+
+    <string name="bar_3_name">The Libertine Bar</string>
+    <string name="bar_3_phone">(214) 824-7900</string>
+    <string name="bar_3_address">2101 Greenville Ave</string>
+
+    <string name="bar_4_name">Twin Peaks Addison</string>
+    <string name="bar_4_phone">(972) 503-7325</string>
+    <string name="bar_4_address">5260 Belt Line Rd</string>
+
+    <string name="hookah_lounge_1_name">Al-Amir</string>
+    <string name="hookah_lounge_1_phone">(972) 488-2647</string>
+    <string name="hookah_lounge_1_address">3885 Belt Line Rd</string>
+
+    <string name="hookah_lounge_2_name">Cairo Hookah Lounge</string>
+    <string name="hookah_lounge_2_phone">(972) 238-5100</string>
+    <string name="hookah_lounge_2_address">581 W Campbell Rd #113</string>
+
+    <string name="hookah_lounge_3_name">Peace Pipe Hookah Lounge</string>
+    <string name="hookah_lounge_3_phone">(972) 978-5710</string>
+    <string name="hookah_lounge_3_address">580 W Arapaho Rd</string>
+
+    <string name="hookah_lounge_4_name">XSheesha</string>
+    <string name="hookah_lounge_4_phone">(972) 241-1672</string>
+    <string name="hookah_lounge_4_address">3712 Belt Line Rd</string>
+</resources>

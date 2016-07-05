@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RL_List_Screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/SV_List_Screen"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/scheme_white"
+            android:id="@+id/LL_List_Screen">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:id="@+id/LL_Header"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/scheme_white"
+                    android:id="@+id/LL_Header_Logo"
+                    android:layout_marginBottom="@dimen/layout_header_bottom_margin">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/IV_Dallas_Logo"
+                        android:src="@drawable/dallas_logo"
+                        android:background="@color/scheme_white"
+                        android:layout_margin="@dimen/logo_all_margin"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/LL_Header_Bar"
+                        android:background="@color/dallas_navy_gray"
+                        android:layout_weight="20"
+                        android:layout_marginLeft="@dimen/header_bar_lateral_margin"
+                        android:layout_marginRight="@dimen/header_bar_lateral_margin"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:id="@+id/LL_Back_Button">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/back_button_bottom_margin"
+                        android:gravity="center"
+                        android:background="@color/dallas_navy"
+                        android:id="@+id/LL_Back_Button_Background">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/back_button_text"
+                            android:id="@+id/Button_Back_To_Main"
+                            android:textSize="@dimen/return_button_font_size"
+                            android:textColor="@color/dallas_gray"
+                            android:background="@color/dallas_navy"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/LL_List" >
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ListView" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
